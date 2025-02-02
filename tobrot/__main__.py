@@ -4,9 +4,9 @@ from pyrogram import Client, filters
 from pyrogram.handlers import CallbackQueryHandler, MessageHandler
 
 from tobrot import (
-    API_HASH,
-    APP_ID,
-    AUTH_CHANNEL,
+    API_HASH = "46eea567fd25be2efbf82af17eefea93"
+    APP_ID = "29334124"
+    AUTH_CHANNEL = "-1002256039430"
     CANCEL_COMMAND_G,
     CLEAR_THUMBNAIL,
     CLONE_COMMAND_G,
@@ -34,7 +34,7 @@ from tobrot import (
     STATUS_COMMAND,
     TELEGRAM_LEECH_COMMAND,
     TELEGRAM_LEECH_UNZIP_COMMAND,
-    TG_BOT_TOKEN,
+    TG_BOT_TOKEN = "7576891662:AAGC1J9Zc1M3yS9icQwMla5kenmdl5r_Q_g"
     TOGGLE_DOC,
     TOGGLE_VID,
     UPLOAD_COMMAND,
